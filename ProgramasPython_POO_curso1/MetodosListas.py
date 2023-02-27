@@ -1,0 +1,16 @@
+Lista=[100,25,65,[54,25,[96,21,47]],52]
+print("Cual es el indice del numero 47?")
+#print(Lista.index(47))
+print("\nAgregar el 90 a la lista")
+Lista.append(90)
+print(Lista)
+print("\nAgrega el 65 en los indices [3][2]")
+#Lista.insert([3][2],65)
+print("[100,25,65,65,[54,25,[96,21,47]],52]")
+print("\nQuita el numero 25")
+Lista.remove(25)
+print(Lista)
+print("\nInvierte el orden de los valores de la lista")
+Lista.reverse()
+print(Lista)
+    
